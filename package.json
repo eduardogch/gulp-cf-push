@@ -1,0 +1,28 @@
+{
+  "name": "gulp-cf-push",
+  "version": "1.0.0",
+  "author": "Eduardo Gonzalez",
+  "description": "Gulp plugin to push and app to Pivotal CloudFoundry",
+  "main": "index.js",
+  "license": "MIT",
+  "homepage": "https://github.com/eduardogch/gulp-cf-push#readme",
+  "keywords": [
+    "gulp",
+    "cf",
+    "cloudfoundry",
+    "pivotal"
+  ],
+  "scripts": {
+    "start": "node index.js",
+    "test": "node_modules/.bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eduardogch/gulp-cf-push.git"
+  },
+  "bugs": {
+    "url": "https://github.com/eduardogch/gulp-cf-push/issues"
+  },
+  "dependencies": {
+  }
+}
