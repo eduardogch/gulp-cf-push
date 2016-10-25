@@ -14,12 +14,9 @@ In the terminal run the following command
 Import NPM module in gulpfile.js
 ```
 var cfPush = require('gulp-cf-push');
-```
 
-Create a Gulp task
-```
-/* Scaffolding UI **/
+/* Pivotal CloudFoundry - cf push **/
 gulp.task('cf-push', function(done){
-    cfPush();
+    cfPush('manifest.yml');
 });
 ```
